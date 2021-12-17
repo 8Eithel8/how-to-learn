@@ -24,15 +24,6 @@ h1, h2, h3, h4, p, ul, li, img, section {
   padding-left: 64px;
 }
 
-.header__title {
-  width: 730px;
-  align-self: center;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  
-}
-
 .logo_place_header{
   width: 183px;
   height: 32px;
@@ -41,7 +32,6 @@ h1, h2, h3, h4, p, ul, li, img, section {
   left: 64px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -51,13 +41,23 @@ h1, h2, h3, h4, p, ul, li, img, section {
   top: 64px;
 }
 
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 
-.kaufman {
-  background-color: #000;
+.header__title {
+  width: 730px;
+  align-self: center;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
 }
 
 .subtitle {
-  
   line-height: 25px;
   font-size: 18px;
 }
@@ -73,14 +73,6 @@ margin: 0;
 .link {
   text-decoration: none;
   color: #2f80ed;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }
 
 .description{
@@ -113,10 +105,6 @@ margin: 0;
   flex-direction: column;
 }
 
-.two-columns__span-accent {
-  font-weight: bold;
-}
-
 .two-columns__paragraph {
   margin-top: 0;
   margin-bottom: 30px;
@@ -126,6 +114,10 @@ margin: 0;
 
 .two-columns__paragraph:last-child {
  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 .digits {
@@ -224,15 +216,6 @@ margin: 0;
   font-size: 36px;
 }
 
-.feynman__image {
-  width: 867px;
-  height: 637px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -2;
-}
-
 .kaufman {
   width: 100%;
   display: flex;
@@ -244,6 +227,26 @@ margin: 0;
   overflow: hidden;
   align-items: center;
   padding: 90px 0;
+  background-color: #000;
+}
+
+.kaufman__section-subtitle_theme_dark {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.table__heading_theme_dark,
+.kaufman__table {
+  margin: 0;
+}
+
+.kaufman__table {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1090px;
+  padding: 0;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -255,14 +258,11 @@ margin: 0;
   margin-top: 80px;
 }
 
-.table__heading_theme_dark,
-.kaufman__table {
-  margin: 0;
-}
-
-.kaufman__section-subtitle_theme_dark {
-  margin-top: 20px;
-  margin-bottom: 0;
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0 0;
 }
 
 .triangle {
@@ -272,22 +272,6 @@ margin: 0;
   right: -210px;
   top: 0;
   z-index: 0;
-}
-
-.table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 20px 0 0 0;
-}
-
-.kaufman__table {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 1090px;
-  padding: 0;
-  z-index: 1;
 }
 
 .footer {
@@ -331,6 +315,16 @@ margin: 0;
   font-size: 18px;
 }
 
+.column-heading {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.column-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .column-link,
 .social-icon,
 .column-heading {
@@ -343,17 +337,6 @@ margin: 0;
    padding-left: 26px;
 }
 
-.column-heading {
-  font-weight: 600;
-  margin-top: 0;
-}
-
-.column-links {
-  display: flex;
-  flex-direction: column;
-}
-
 .social-icon {
   padding: 0 10px 0 0;
 }
-
