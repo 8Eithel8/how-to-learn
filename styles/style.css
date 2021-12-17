@@ -51,13 +51,6 @@ h1, h2, h3, h4, p, ul, li, img, section {
   top: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .kaufman {
   background-color: #000;
@@ -121,10 +114,12 @@ left: 64px;
 }
 
 .digits {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 100px auto;
+  margin: 0 auto;
   align-items: center;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -172,6 +167,7 @@ left: 64px;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
@@ -228,7 +224,7 @@ left: 64px;
   flex-direction: column;
   justify-content: flex-end;
   width: 200px;
-  margin: 80;
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark,
