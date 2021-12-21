@@ -292,7 +292,7 @@ z-index: 2;
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
-  flex-grow: 7;
+  flex-grow: 3;
 }
 
 .footer__column_content_info {
