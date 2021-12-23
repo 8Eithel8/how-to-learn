@@ -329,7 +329,11 @@ z-index: 2;
   
 }
 
-.column-link,
+.footer__column-link {
+  list-style: none;
+}
+
+.footer__column-link,
 .footer__column-heading {
   width: 120px;
   color: #fff;
@@ -337,7 +341,6 @@ z-index: 2;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  padding-left: 26px;
 }
 
 .social-icon {
