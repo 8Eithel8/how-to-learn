@@ -285,13 +285,12 @@ z-index: 2;
   box-sizing: border-box;
   padding: 60px 0 40px 0;
   background-color: #000;
-  display: flex;
 }
 
 .footer__columns {
   width: 90%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin: 0 auto;
   position: relative;
 }
@@ -305,13 +304,7 @@ z-index: 2;
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
-  flex-grow: 1;
 }
-
-.footer__column_content_info {
-  flex-grow: 1;
-}
-
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
@@ -343,13 +336,12 @@ z-index: 2;
 
 .footer__column-link,
 .footer__column-heading {
-  /* max-width: 120px;   */
   color: #fff;
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  
+  align-items: flex-end;
 }
 
 .social-icon {
