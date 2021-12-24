@@ -195,6 +195,8 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-color: #f2f2f2;
+  box-sizing: border-box;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -203,7 +205,7 @@
   font-size: 120px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 70px;
+  margin: 0 0 70px 0;
   z-index: 1;
 }
 
@@ -330,7 +332,7 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
