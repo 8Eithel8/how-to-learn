@@ -36,24 +36,18 @@
   z-index: 2;
 }
 
-.header__subtitle,
-.feynman__subtitle,
-.footer__author {
+.header__subtitle {
   line-height: 25px;
   font-size: 18px;
+  max-width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  margin: 0;
+  z-index: 2;
 }
 
-.header__subtitle {
-max-width: 388px;
-position: absolute;
-bottom: 30px;
-left: 64px;
-margin: 0;
-z-index: 2;
-}
-
-.header__link,
-.feynman__link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -169,7 +163,6 @@ z-index: 2;
   justify-content: space-between;
   align-self: baseline;
   list-style: none;
-  
 }
 
 .table__cell {
@@ -214,23 +207,25 @@ z-index: 2;
   z-index: 1;
 }
 
-.feynman__subtitle,
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 0;
-}
-
-.feynman__subtitle {
-  z-index: 1;
-}
-
-.feynman__link {
+  margin-top: 0;
+  text-decoration: none;
+  color: #2f80ed;
   position: absolute;
   top: 50%;
   right: 40px;
   z-index: 2;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+  margin: 0;
 }
 
 .kaufman {
@@ -248,19 +243,19 @@ z-index: 2;
 
 .section-title_theme_dark,
 .section-subtitle_theme_dark,
-.table__text_theme_dark,
-.table__heading_theme_dark {
+.table__text_theme_dark {
   color: #fff;
 }
 
-.table__heading_theme_dark,
-.table_theme_dark {
+.table__heading_theme_dark {
+  color: #fff;
   margin: 0;
 }
 
 .table_theme_dark {
   padding: 0;
   z-index: 1;
+  margin: 0;
 }
 
 .table__cell_theme_dark {
@@ -314,12 +309,20 @@ z-index: 2;
 }
 
 .footer__author {
+  line-height: 25px;
+  font-size: 18px;
   color: #fff;
   margin: 0;
   padding: 18px 0;
 }
 
 .footer__column-heading {
+  color: #fff;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  align-items: flex-end;
   font-weight: 600;
   margin: 0 0 20px 0;
 }
@@ -331,11 +334,6 @@ z-index: 2;
 }
 
 .footer__column-link {
-  list-style: none;
-}
-
-.footer__column-link,
-.footer__column-heading {
   color: #fff;
   text-decoration: none;
   line-height: 30px;
