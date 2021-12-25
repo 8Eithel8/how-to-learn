@@ -260,14 +260,14 @@
   margin: 0;
 }
 
-.table__heading_theme_dark {
-  color: #fff;
-  margin: 0;
-}
-
 .table__cell_theme_dark {
   max-width: 200px;
   margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  color: #fff;
+  margin: 0;
 }
 
 .kaufman__triangle {
