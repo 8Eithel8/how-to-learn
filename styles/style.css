@@ -246,9 +246,12 @@
   color: #fff;
 }
 
-.section-title_theme_dark,
-.section-subtitle_theme_dark {
+.section-title_theme_dark {
   z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+  z-index: 2;
 }
 
 .table__heading_theme_dark {
@@ -258,7 +261,7 @@
 
 .table_theme_dark {
   padding: 0;
-  z-index: 2;
+  z-index: 3;
   margin: 0;
 }
 
