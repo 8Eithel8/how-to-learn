@@ -13,6 +13,7 @@
   background-color:  #f2f2f2;
   position: relative;
   padding-left: 64px;
+  overflow: hidden;
 }
 
 .logo {
@@ -70,6 +71,19 @@
   position: absolute;
   right: 0;
   top: 64px;
+}
+
+@keyframes rotate_fig { 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotate_fig linear 20s infinite;
 }
 
 .description {
@@ -280,6 +294,7 @@
   right: -210px;
   top: 0;
   z-index: 0;
+  
 }
 
 .footer {
