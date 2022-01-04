@@ -131,6 +131,50 @@
   font-weight: 600;
 }
 
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 920px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  max-width: 240px;
+  padding-right: 100px;
+}
+
+.cards__item:nth-child(3n) {
+  padding-right: 0px;
+}
+
+.cards__image {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  margin: 0 40px;
+}
+
+.cards__title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+}
+
 .digits {
   box-sizing: border-box;
   display: flex;
