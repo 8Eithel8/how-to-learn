@@ -53,6 +53,18 @@
   color: #2f80ed;
 }
 
+.header__link:hover,
+.feynman__link:hover,
+.khan__buy-link:hover,
+.resources__logo:hover,
+.logo_place_footer:hover,
+.footer__column-link:hover {
+    opacity: .5;
+    transition: opacity .4s ease;
+}
+
+
+
 .header__main-illustration {
   object-fit: cover;
   object-position: right center;
@@ -206,14 +218,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
-  background-image: linear-gradient(#fff 78%, #f2f2f2 78%);
+  padding-top: 100px;
+  /* background-image: linear-gradient(#fff 78%, #f2f2f2 78%); */
+  margin-bottom: -20px;
 }
 
 .video__iframes {
   margin: 0 auto;
   padding-top: 50px;
   display: flex;
+  margin-bottom: -40px;
 }
 
 .video__iframe:first-child {
@@ -222,7 +236,7 @@
 
 .oakley {
   background-color: #f2f2f2;
-  padding-top: 20px;
+  padding-top: 160px;
   
 }
 
