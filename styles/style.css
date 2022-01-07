@@ -374,7 +374,7 @@
   margin: 0 0 68px 0;
 }
 
-.book-container {
+.khan__book-container {
   display: flex;
   align-items: flex-start;
 }
@@ -384,6 +384,14 @@
   height: 608px;
   object-fit: cover;
   object-position: top left;
+}
+
+.khan__buy-link {
+  margin-left: 40px;
+  line-height: 42px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -397,14 +405,6 @@
   align-items: center;
   padding: 90px 0;
   background-color: #000;
-}
-
-.khan__buy-link {
-  margin-left: 40px;
-  line-height: 42px;
-  font-size: 30px;
-  text-decoration: none;
-  color: #2f80ed;
 }
 
 .section-title_theme_dark,
