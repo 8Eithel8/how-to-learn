@@ -1,0 +1,12 @@
+@keyframes rotate_fig { 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotate_fig linear 20s infinite;
+}
